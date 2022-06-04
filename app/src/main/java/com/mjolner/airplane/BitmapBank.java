@@ -12,7 +12,7 @@ public class BitmapBank {
 
 
     public BitmapBank(Resources res) {
-        background = BitmapFactory.decodeResource(res, R.drawable.background_parallax);
+        background = BitmapFactory.decodeResource(res, R.drawable.long_background);
         background = scaleImage(background);
         bird = new Bitmap[4];
         bird[0] = BitmapFactory.decodeResource(res, R.drawable.beat_01);

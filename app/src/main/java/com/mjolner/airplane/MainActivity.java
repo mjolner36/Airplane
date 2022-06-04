@@ -1,10 +1,14 @@
 package com.mjolner.airplane;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.browser.customtabs.CustomTabsIntent;
+
+import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,5 +25,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GameActivity.class);
         startActivity(intent);
         finish();
+    }
+
+    public void openPolitics(View view){
+        String url = "https://www.google.com/";
+        CustomTabsIntent customTabsIntent  = new CustomTabsIntent.Builder().setColorScheme(
+                CustomTabsIntent.COLOR_SCHEME_DARK).build();
+        customTabsIntent.launchUrl(this, Uri.parse(url));
     }
 }

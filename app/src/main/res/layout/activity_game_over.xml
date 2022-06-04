@@ -9,28 +9,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="Restart"
+        android:layout_marginStart="151dp"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="585dp"
+        android:background="@android:color/holo_blue_dark"
         android:onClick="restart"
-        android:background="@android:color/holo_blue_dark"
-        android:textColor="#ffffff"
         android:padding="10dp"
-        android:textSize="18sp"
-        android:layout_alignParentLeft="true" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:text="Exit"
-        android:onClick="exit"
-        android:background="@android:color/holo_blue_dark"
+        android:text="Restart"
         android:textColor="#ffffff"
-        android:padding="10dp"
-        android:textSize="18sp"
-        android:layout_alignParentRight="true" />
+        android:textSize="18sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
