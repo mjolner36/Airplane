@@ -1,8 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:padding="10dp"
-    android:background="@drawable/background">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#757575"
+    android:padding="10dp">
 
     <Button
         android:id="@+id/button"
@@ -14,7 +15,7 @@
         android:layout_marginStart="151dp"
         android:layout_marginLeft="151dp"
         android:layout_marginTop="585dp"
-        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="#C52D2D"
         android:onClick="restart"
         android:padding="10dp"
         android:text="Restart"
@@ -41,16 +42,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Score: " />
+                android:text="Score: "
+                android:textColor="#FBFBFB" />
 
             <TextView
                 android:id="@+id/tvScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="36sp"
-                android:textColor="@android:color/holo_orange_dark"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="#FBFBFB"
+                android:textSize="36sp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -59,14 +62,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Personal best: " />
+                android:text="Personal best: "
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/tvPersonalBest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/holo_green_dark"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

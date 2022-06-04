@@ -8,7 +8,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
 
-import java.net.URL;
+
 
 public class MainActivity extends AppCompatActivity {
 

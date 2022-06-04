@@ -15,10 +15,10 @@ public class BitmapBank {
         background = BitmapFactory.decodeResource(res, R.drawable.long_background);
         background = scaleImage(background);
         bird = new Bitmap[4];
-        bird[0] = BitmapFactory.decodeResource(res, R.drawable.beat_01);
-        bird[1] = BitmapFactory.decodeResource(res, R.drawable.beat_02);
-        bird[2] = BitmapFactory.decodeResource(res, R.drawable.beat_03);
-        bird[3] = BitmapFactory.decodeResource(res, R.drawable.beat_04);
+        bird[0] = BitmapFactory.decodeResource(res, R.drawable.small_airplane);
+        bird[1] = BitmapFactory.decodeResource(res, R.drawable.small_airplane);
+        bird[2] = BitmapFactory.decodeResource(res, R.drawable.small_airplane);
+        bird[3] = BitmapFactory.decodeResource(res, R.drawable.small_airplane);
         tubeTop = BitmapFactory.decodeResource(res, R.drawable.pipe_down);
         tubeBottom = BitmapFactory.decodeResource(res, R.drawable.pipe_up);
     }
